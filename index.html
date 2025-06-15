@@ -4,132 +4,81 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jannis Reiher</title>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&family=Oswald&family=Anton&family=Bebas+Neue&family=Rajdhani&family=Orbitron&family=Staatliches&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&family=Anton&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      background-color: #f9c846;
-      color: #111;
+      background-color: #111;
+      color: #fff;
       font-family: 'Barlow Condensed', sans-serif;
-      line-height: 1.6;
+      line-height: 1.4;
+      text-align: center;
     }
     header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      position: relative;
-      height: 100vh;
-      background: none;
+      padding: 4rem 1rem 1rem;
     }
     header h1 {
       font-size: 4rem;
-      color: #fff;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.2rem;
       font-family: 'Anton', sans-serif;
-      text-align: center;
     }
-    header .subtitle {
+    .subtitle {
       font-size: 1.25rem;
-      color: #fff;
-      text-align: center;
+      margin-bottom: 2.5rem;
     }
-    .container {
-      max-width: 800px;
-      margin: 3rem auto;
-      padding: 0 1rem;
-      text-align: center;
-    }
-    h2 {
-      border-bottom: 2px solid #444;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
-    .bio, .why {
-      margin-bottom: 3rem;
-    }
-    .photo-slider {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      padding: 1rem 0;
-    }
-    .photo-slider img {
-      max-height: 300px;
-      border-radius: 8px;
-    }
-    .button-row {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-    .pdf-button, .reel-button {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      background: #2a2e3a;
-      color: #eee;
-      text-decoration: none;
-      border-radius: 4px;
+    .statement {
+      font-size: 1.5rem;
       font-weight: bold;
-      transition: background 0.3s ease;
+      margin-bottom: 0.3rem;
     }
-    .pdf-button:hover, .reel-button:hover {
-      background: #3a3f52;
-    }
-    .bio em {
-      display: block;
-      margin-top: 1rem;
+    .substatement {
       font-style: italic;
+      margin-bottom: 2rem;
     }
-    blockquote {
-      font-style: italic;
-      border-left: 4px solid #333;
-      margin: 2rem auto;
-      padding: 1rem;
+    .message {
       max-width: 600px;
-      background: rgba(0,0,0,0.05);
+      margin: 0 auto 3rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .video-container {
+      max-width: 960px;
+      margin: 0 auto 3rem;
+      padding: 0 1rem;
+    }
+    .video-container h2 {
+      margin-bottom: 1rem;
     }
   </style>
 </head>
 <body>
-  <header style="position: relative; overflow: hidden; height: 100vh; background-color: #000;">
-    <video autoplay loop muted playsinline preload="auto" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; display: block;">
-  <source src="https://res.cloudinary.com/dgj6txfow/video/upload/v1749888421/headerloop_nkcl1b.mp4" type="video/mp4">
-</video>
-    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; text-align: center;">
-      <h1>Jannis Reiher</h1>
-      <div class="subtitle">Professional Drummer • 350+ Shows Played • Touring & Recording Musician</div>
-    </div>
+  <header>
+    <h1>Jannis Reiher</h1>
+    <div class="subtitle">Professional Drummer • 350+ Shows • Touring & Recording</div>
+    <div class="statement">Reaching out for the drum throne.</div>
+    <div class="substatement">No expectations. Full intention.</div>
   </header>
-  <div class="container">
-    <section class="bio">
-      <h2>About</h2>
-      <p>Jannis Reiher is a 29-year-old professional drummer and with over 350 shows across Europe, performing in and recording with more than 15 bands and projects. Currently part of the crossover metal/rock band Brunhilde, finishing up a 30-show tour. He has dedicated his life to music, bringing high passion, energy and presence to every stage — from intimate club shows to massive festivals, arenas and three month tours. His style is defined by a powerful, punchy sound fused with technical precision, grounded in a deep commitment to the music and his craft. </p>
-      <p><em>"Since I was 16, I knew I would never be doing anything else. Ever since, every decision I made in life has been made for the music and drums. I am grateful to live for and from the music. It's how I live, express, connect, and create."</em></p>
-      <div class="photo-slider">
-        <img src="laugh.png" alt="Laugh">
-        <img src="power.jpeg" alt="Power">
-        <img src="pose.png" alt="Pose">
-      </div>
-      <div class="button-row">
-        <a class="reel-button" href="reel.mp4" target="_blank">Watch Reel</a>
-        <a class="reel-button" href="extended-reel.mp4" target="_blank">Watch Extended Reel</a>
-      </div>
-    </section>
-    <section class="why">
-      <h2>Why Foo Fighters?</h2>
-      <p><em>I have endless passion, dedication, creativity, energy, and love to give — and I’m highly eager to bring all of it into your music, vision, and art.</em></p>
-      <p>What moves me to reach out isn’t just the legacy. It’s the way Foo Fighters have always been about heart, presence, and putting everything into the music. That’s how I live and perform: all in, eyes closed, in the moment. I’ve shed tears on stage because it feels so raw and true — and, yeah, sometimes because there’s makeup in my eyes.</p>
-      <p>I know how ambitious this is. But I also know I have the sound, energy and drive to bring something real to the band. I know I was made for this.</p>
-      <p>Thank you for taking the time to read this.</p>
-    </section>
-    <div class="button-row">
-      <a class="pdf-button" href="Jannis_Reiher_Profile.pdf" target="_blank">Download PDF Profile</a>
-    </div>
+
+  <div class="message">
+    <p>Hello Dave, hello to whomever this may reach,<br>
+    Thank you for two minutes of your time.<br>
+    I’ll keep it short — and let the drums speak.</p>
+
+    <p>I’m a professional drummer.<br>
+    I think, live and breathe this instrument.<br>
+    There’s no other way for me.</p>
+
+    <p>I know this is ambitious.<br>
+    But if there’s ever a place I’d want to bring my full energy, dedication, and heart —<br>
+    it’s into your music.</p>
+
+    <p>Thank you!<br>— Jannis</p>
+  </div>
+
+  <div class="video-container">
+    <h2>Watch Reel</h2>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1093488036?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Jannis FF"></iframe></div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
   </div>
 </body>
 </html>
